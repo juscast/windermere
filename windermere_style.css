@@ -1,0 +1,62 @@
+body {
+    background-color: 	#FFF2D5;
+}
+
+input[type="text"], textarea, h2, a {
+	
+	font-family: "Courier New", Courier, monospace;
+	background-color : #FFF2D5; 
+	padding: 12px 20px;
+	margin: 2px 0;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+.logo {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+.pagestatus {
+	text-align: center;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      900;
+  background-color: #FFF2D5;
+  color:            black;
+  } 
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #FFF2D5;
+  color:            black;
+  font-size: 22px;
+  } 
+
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: black;
+  color:            #FFF2D5;
+  font-size: 22px;
+  } 
+  
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: black;
+  color: #FFF2D5;
+  font-size: 22px;
+  } 
